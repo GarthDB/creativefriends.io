@@ -1,0 +1,11 @@
+# Site settings
+title: Creative Friends
+email: garthdb@creativefriends.io
+description: >
+  In the Creative Friends Podcast Garth Braithwaite, Host, talks with creatives about the best advice they've recieved, and the lessons they've learned the hard way.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://creativefriends.io" # the base hostname & protocol for your site
+twitter_username: creativefronds
+
+# Build settings
+markdown: kramdown
