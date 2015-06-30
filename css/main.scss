@@ -3,12 +3,45 @@
 ---
 @import "normalize";
 
-body {
-  background: #889baa;
+root {
+  font-size: 18px;
 }
 
-.site-footer svg {
-  position: absolute;
-  bottom: 0;
+body {
+  padding-top: 100px;
+  background: #edecdf;
+  color: #404040;
+}
+
+.wrapper {
   width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.homepage-main {
+  text-align: center;
+}
+
+.creative-friends-mark {
+  margin: 30px 0 100px;
+}
+
+.wrapper--copy {
+  max-width: 500px;
+}
+
+h1 {
+  font-family: "futura-pt-condensed",helvetica,sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 2.25rem;
+}
+
+p {
+  line-height: 2rem;
+  text-indent: 1.5rem;
+  &.salutation {
+    text-indent: 0;
+  }
 }
