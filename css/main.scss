@@ -8,7 +8,7 @@ root {
 }
 
 body {
-  padding-top: 40px;
+  padding-top: 30px;
   background: #edecdf;
   color: #404040;
 }
@@ -18,7 +18,7 @@ body {
   max-width: 700px;
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 0 30px;
+  padding: 0 20px;
 }
 
 .homepage-main {
@@ -43,8 +43,8 @@ body {
 h1 {
   font-family: "futura-pt-condensed",helvetica,sans-serif;
   font-weight: 800;
-  font-size: 2rem;
-  line-height: 2.25rem;
+  font-size: 1.7rem;
+  line-height: 1.9rem;
 }
 
 p {
@@ -55,11 +55,22 @@ p {
   }
   margin: 0 0 1rem;
 }
+@media only screen and (min-width: 380px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+}
+
 @media only screen and (min-width: 600px) {
   body {
     padding-top: 100px;
   }
   .creative-friends-mark {
     height: 180px;
+  }
+  h1 {
+    font-size: 2.5rem;
+    line-height: 2.7rem;
   }
 }
